@@ -54,7 +54,7 @@ if uploaded_file:
     # Benutzer wählt Tagesbeginn und -ende
     col1, col2 = st.columns(2)
     with col1:
-        start_tag = st.number_input("Tagesbeginn (z. B. 8 für 08:00)", min_value=0, max_value=23, value=8)
+        start_tag = st.number_input("start (z. B. 8 für 08:00)", min_value=0, max_value=23, value=8)
     with col2:
         ende_tag = st.number_input("Tagesende (z. B. 18 für 18:00)", min_value=1, max_value=24, value=18)
 
